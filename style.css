@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+article{
+    padding-top: 10px;
+}
+header{
+    text-align: center;
+    background-color: lightslategray;
+    background-image: linear-gradient(to right,#C5C7DB, #927CDB);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.564);
+}
+
+header h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.372);
+    
+}
+header p {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.451);
+}
+main{
+    margin: auto;
+    text-align: center;
+    background-color: aliceblue;
+    max-width: 1000px;    
+    
+}
+main p {
+    font-weight: bold;
+    padding: 20px 15px 40px 15px;   
+    font-size: 1em;
+    margin: 15px 0px 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.2em;
+}   
+main h1 {
+    padding-top: 20px;
+    font-family: "Bebas Neue";
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+}
+h1.konosuba{
+    background-image: linear-gradient(to right, #EA006D,#F37F0D);
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+h1.mushoku{
+    background-image: linear-gradient(to right, #FFD76A, #A4658F);
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+h1.titulo{
+    font-size: 3em;
+    background-image: linear-gradient(to right,#C5C7DB, #927CDB);
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+img{
+    width: 70%;
+}
