@@ -6,7 +6,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: aliceblue;
+    
+    background: aliceblue url(imagens/fundo.png) center center no-repeat fixed;
+    background-size: cover;
 }
 article{
     padding-top: 10px;
@@ -17,7 +19,24 @@ header{
     background-image: linear-gradient(to right,#C5C7DB, #927CDB);
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.564);
 }
-
+nav{
+    background-color: #927CDB;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.564);
+    padding: 10px;
+}
+nav a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+nav a:hover{
+    text-decoration: underline;
+    
+}
 header h1 {
     padding-top: 20px;
     padding-bottom: 20px;
